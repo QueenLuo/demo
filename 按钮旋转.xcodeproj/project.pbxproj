@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117B61F41BE2105700111D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B61F31BE2105700111D27 /* main.m */; };
+		117B61F71BE2105700111D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B61F61BE2105700111D27 /* AppDelegate.m */; };
+		117B61FA1BE2105700111D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B61F91BE2105700111D27 /* ViewController.m */; };
+		117B61FD1BE2105700111D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117B61FB1BE2105700111D27 /* Main.storyboard */; };
+		117B61FF1BE2105700111D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117B61FE1BE2105700111D27 /* Assets.xcassets */; };
+		117B62021BE2105700111D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117B62001BE2105700111D27 /* LaunchScreen.storyboard */; };
+		117B620D1BE2105700111D27 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B620C1BE2105700111D27 /* ____Tests.m */; };
+		117B62181BE2105700111D27 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B62171BE2105700111D27 /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		117B62091BE2105700111D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117B61E71BE2105700111D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117B61EE1BE2105700111D27;
+			remoteInfo = "按钮旋转";
+		};
+		117B62141BE2105700111D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117B61E71BE2105700111D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117B61EE1BE2105700111D27;
+			remoteInfo = "按钮旋转";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		117B61EF1BE2105700111D27 /* 按钮旋转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "按钮旋转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		117B61F31BE2105700111D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		117B61F51BE2105700111D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		117B61F61BE2105700111D27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		117B61F81BE2105700111D27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		117B61F91BE2105700111D27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		117B61FC1BE2105700111D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		117B61FE1BE2105700111D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		117B62011BE2105700111D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		117B62031BE2105700111D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117B62081BE2105700111D27 /* 按钮旋转Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮旋转Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		117B620C1BE2105700111D27 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		117B620E1BE2105700111D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117B62131BE2105700111D27 /* 按钮旋转UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮旋转UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		117B62171BE2105700111D27 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		117B62191BE2105700111D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		117B61EC1BE2105700111D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117B62051BE2105700111D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117B62101BE2105700111D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117B61E61BE2105700111D27 = {
+			isa = PBXGroup;
+			children = (
+				117B61F11BE2105700111D27 /* 按钮旋转 */,
+				117B620B1BE2105700111D27 /* 按钮旋转Tests */,
+				117B62161BE2105700111D27 /* 按钮旋转UITests */,
+				117B61F01BE2105700111D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		117B61F01BE2105700111D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				117B61EF1BE2105700111D27 /* 按钮旋转.app */,
+				117B62081BE2105700111D27 /* 按钮旋转Tests.xctest */,
+				117B62131BE2105700111D27 /* 按钮旋转UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		117B61F11BE2105700111D27 /* 按钮旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				117B61F51BE2105700111D27 /* AppDelegate.h */,
+				117B61F61BE2105700111D27 /* AppDelegate.m */,
+				117B61F81BE2105700111D27 /* ViewController.h */,
+				117B61F91BE2105700111D27 /* ViewController.m */,
+				117B61FB1BE2105700111D27 /* Main.storyboard */,
+				117B61FE1BE2105700111D27 /* Assets.xcassets */,
+				117B62001BE2105700111D27 /* LaunchScreen.storyboard */,
+				117B62031BE2105700111D27 /* Info.plist */,
+				117B61F21BE2105700111D27 /* Supporting Files */,
+			);
+			path = "按钮旋转";
+			sourceTree = "<group>";
+		};
+		117B61F21BE2105700111D27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				117B61F31BE2105700111D27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		117B620B1BE2105700111D27 /* 按钮旋转Tests */ = {
+			isa = PBXGroup;
+			children = (
+				117B620C1BE2105700111D27 /* ____Tests.m */,
+				117B620E1BE2105700111D27 /* Info.plist */,
+			);
+			path = "按钮旋转Tests";
+			sourceTree = "<group>";
+		};
+		117B62161BE2105700111D27 /* 按钮旋转UITests */ = {
+			isa = PBXGroup;
+			children = (
+				117B62171BE2105700111D27 /* ____UITests.m */,
+				117B62191BE2105700111D27 /* Info.plist */,
+			);
+			path = "按钮旋转UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		117B61EE1BE2105700111D27 /* 按钮旋转 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117B621C1BE2105700111D27 /* Build configuration list for PBXNativeTarget "按钮旋转" */;
+			buildPhases = (
+				117B61EB1BE2105700111D27 /* Sources */,
+				117B61EC1BE2105700111D27 /* Frameworks */,
+				117B61ED1BE2105700111D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "按钮旋转";
+			productName = "按钮旋转";
+			productReference = 117B61EF1BE2105700111D27 /* 按钮旋转.app */;
+			productType = "com.apple.product-type.application";
+		};
+		117B62071BE2105700111D27 /* 按钮旋转Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117B621F1BE2105700111D27 /* Build configuration list for PBXNativeTarget "按钮旋转Tests" */;
+			buildPhases = (
+				117B62041BE2105700111D27 /* Sources */,
+				117B62051BE2105700111D27 /* Frameworks */,
+				117B62061BE2105700111D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				117B620A1BE2105700111D27 /* PBXTargetDependency */,
+			);
+			name = "按钮旋转Tests";
+			productName = "按钮旋转Tests";
+			productReference = 117B62081BE2105700111D27 /* 按钮旋转Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		117B62121BE2105700111D27 /* 按钮旋转UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117B62221BE2105700111D27 /* Build configuration list for PBXNativeTarget "按钮旋转UITests" */;
+			buildPhases = (
+				117B620F1BE2105700111D27 /* Sources */,
+				117B62101BE2105700111D27 /* Frameworks */,
+				117B62111BE2105700111D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				117B62151BE2105700111D27 /* PBXTargetDependency */,
+			);
+			name = "按钮旋转UITests";
+			productName = "按钮旋转UITests";
+			productReference = 117B62131BE2105700111D27 /* 按钮旋转UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		117B61E71BE2105700111D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "GKLIFE-12";
+				TargetAttributes = {
+					117B61EE1BE2105700111D27 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					117B62071BE2105700111D27 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 117B61EE1BE2105700111D27;
+					};
+					117B62121BE2105700111D27 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 117B61EE1BE2105700111D27;
+					};
+				};
+			};
+			buildConfigurationList = 117B61EA1BE2105700111D27 /* Build configuration list for PBXProject "按钮旋转" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 117B61E61BE2105700111D27;
+			productRefGroup = 117B61F01BE2105700111D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				117B61EE1BE2105700111D27 /* 按钮旋转 */,
+				117B62071BE2105700111D27 /* 按钮旋转Tests */,
+				117B62121BE2105700111D27 /* 按钮旋转UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		117B61ED1BE2105700111D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117B62021BE2105700111D27 /* LaunchScreen.storyboard in Resources */,
+				117B61FF1BE2105700111D27 /* Assets.xcassets in Resources */,
+				117B61FD1BE2105700111D27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117B62061BE2105700111D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117B62111BE2105700111D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		117B61EB1BE2105700111D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117B61FA1BE2105700111D27 /* ViewController.m in Sources */,
+				117B61F71BE2105700111D27 /* AppDelegate.m in Sources */,
+				117B61F41BE2105700111D27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117B62041BE2105700111D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117B620D1BE2105700111D27 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117B620F1BE2105700111D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117B62181BE2105700111D27 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		117B620A1BE2105700111D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117B61EE1BE2105700111D27 /* 按钮旋转 */;
+			targetProxy = 117B62091BE2105700111D27 /* PBXContainerItemProxy */;
+		};
+		117B62151BE2105700111D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117B61EE1BE2105700111D27 /* 按钮旋转 */;
+			targetProxy = 117B62141BE2105700111D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		117B61FB1BE2105700111D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				117B61FC1BE2105700111D27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		117B62001BE2105700111D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				117B62011BE2105700111D27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		117B621A1BE2105700111D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		117B621B1BE2105700111D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		117B621D1BE2105700111D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "按钮旋转/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GK.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		117B621E1BE2105700111D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "按钮旋转/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GK.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		117B62201BE2105700111D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "按钮旋转Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GK.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮旋转.app/按钮旋转";
+			};
+			name = Debug;
+		};
+		117B62211BE2105700111D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "按钮旋转Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GK.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮旋转.app/按钮旋转";
+			};
+			name = Release;
+		};
+		117B62231BE2105700111D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "按钮旋转UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GK.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "按钮旋转";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		117B62241BE2105700111D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "按钮旋转UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GK.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "按钮旋转";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		117B61EA1BE2105700111D27 /* Build configuration list for PBXProject "按钮旋转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117B621A1BE2105700111D27 /* Debug */,
+				117B621B1BE2105700111D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117B621C1BE2105700111D27 /* Build configuration list for PBXNativeTarget "按钮旋转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117B621D1BE2105700111D27 /* Debug */,
+				117B621E1BE2105700111D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		117B621F1BE2105700111D27 /* Build configuration list for PBXNativeTarget "按钮旋转Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117B62201BE2105700111D27 /* Debug */,
+				117B62211BE2105700111D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		117B62221BE2105700111D27 /* Build configuration list for PBXNativeTarget "按钮旋转UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117B62231BE2105700111D27 /* Debug */,
+				117B62241BE2105700111D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 117B61E71BE2105700111D27 /* Project object */;
+}
