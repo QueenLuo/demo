@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1105CF721C44C96F0045C018 /* 12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1105CF711C44C96F0045C018 /* 12@2x.png */; };
+		11132D551C856AC500A18F47 /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11132D541C856AC500A18F47 /* PlaceholderTextView.m */; };
 		117B61F41BE2105700111D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B61F31BE2105700111D27 /* main.m */; };
 		117B61F71BE2105700111D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B61F61BE2105700111D27 /* AppDelegate.m */; };
 		117B61FA1BE2105700111D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B61F91BE2105700111D27 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		117B62021BE2105700111D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117B62001BE2105700111D27 /* LaunchScreen.storyboard */; };
 		117B620D1BE2105700111D27 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B620C1BE2105700111D27 /* ____Tests.m */; };
 		117B62181BE2105700111D27 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B62171BE2105700111D27 /* ____UITests.m */; };
+		117B62261BE2137A00111D27 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 117B62251BE2137A00111D27 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1105CF711C44C96F0045C018 /* 12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12@2x.png"; sourceTree = "<group>"; };
+		11132D531C856AC500A18F47 /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
+		11132D541C856AC500A18F47 /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
 		117B61EF1BE2105700111D27 /* 按钮旋转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "按钮旋转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		117B61F31BE2105700111D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		117B61F51BE2105700111D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 		117B62131BE2105700111D27 /* 按钮旋转UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮旋转UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		117B62171BE2105700111D27 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		117B62191BE2105700111D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117B62251BE2137A00111D27 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +108,14 @@
 		117B61F11BE2105700111D27 /* 按钮旋转 */ = {
 			isa = PBXGroup;
 			children = (
+				117B62251BE2137A00111D27 /* icon.png */,
+				11132D531C856AC500A18F47 /* PlaceholderTextView.h */,
+				11132D541C856AC500A18F47 /* PlaceholderTextView.m */,
 				117B61F51BE2105700111D27 /* AppDelegate.h */,
 				117B61F61BE2105700111D27 /* AppDelegate.m */,
 				117B61F81BE2105700111D27 /* ViewController.h */,
 				117B61F91BE2105700111D27 /* ViewController.m */,
+				1105CF711C44C96F0045C018 /* 12@2x.png */,
 				117B61FB1BE2105700111D27 /* Main.storyboard */,
 				117B61FE1BE2105700111D27 /* Assets.xcassets */,
 				117B62001BE2105700111D27 /* LaunchScreen.storyboard */,
@@ -243,7 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117B62261BE2137A00111D27 /* icon.png in Resources */,
 				117B62021BE2105700111D27 /* LaunchScreen.storyboard in Resources */,
+				1105CF721C44C96F0045C018 /* 12@2x.png in Resources */,
 				117B61FF1BE2105700111D27 /* Assets.xcassets in Resources */,
 				117B61FD1BE2105700111D27 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +286,7 @@
 				117B61FA1BE2105700111D27 /* ViewController.m in Sources */,
 				117B61F71BE2105700111D27 /* AppDelegate.m in Sources */,
 				117B61F41BE2105700111D27 /* main.m in Sources */,
+				11132D551C856AC500A18F47 /* PlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +510,7 @@
 				117B621E1BE2105700111D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117B621F1BE2105700111D27 /* Build configuration list for PBXNativeTarget "按钮旋转Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				117B62211BE2105700111D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117B62221BE2105700111D27 /* Build configuration list for PBXNativeTarget "按钮旋转UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				117B62241BE2105700111D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
